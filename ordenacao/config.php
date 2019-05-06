@@ -3,7 +3,7 @@
 
 $infos = 'mysql:dbname=projeto_ordenar;host=localhost'; 
 $db_user = 'jeff';
-$db_senha = 'papigaquigrafo';
+$db_senha = 'password';
 
 
 try{
