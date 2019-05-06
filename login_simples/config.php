@@ -3,7 +3,7 @@
 
 $infos = "mysql:dbname=blog;dbhost=localhost";
 $db_user = "jeff";
-$db_senha = "papigaquigrafo";
+$db_senha = "password";
 
 try{
     $pdo = new PDO($infos, $db_user, $db_senha);
