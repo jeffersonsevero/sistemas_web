@@ -1,0 +1,19 @@
+<?php
+
+
+$infos = "mysql:dbname=blog;host=localhost";
+
+$db_user = "jeff";
+
+$db_senha = "papigaquigrafo";
+
+try{
+    $pdo = new PDO($infos, $db_user, $db_senha);
+
+}catch(PDOException $e){
+    echo "Falhou: ".$e->getMessage();
+}
+
+
+
+?>
